@@ -2,15 +2,12 @@ import React from "react";
 import { shallow } from "enzyme";
 import App from "./App";
 import Calculator from "../Calculator/Calculator";
-import {
-  isTaggedTemplateExpression,
-  exportAllDeclaration,
-  exportSpecifier
-} from "@babel/types";
 
 describe("App", () => {
   let wrapper;
   beforeEach(() => (wrapper = shallow(<App />)));
+
+  it("should render correctly", () => expect(wrapper).toMatchSnapshot());
 
   it("should render a <div />", () => {
     const wrapper = shallow(<App />);
