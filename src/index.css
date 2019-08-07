@@ -9,9 +9,22 @@ app variables
   /* font */
   --main-font: "Orbitron", sans-serif;
 
+  /* font colors */
+  --display-text-color: #ffe066;
+
+  /* font size */
+  --display-text-size: 4em;
+
+  /* font weights */
+  --display-text-weight: 400;
+
   /* calculator dimensions */
   --calculator-height: 72%;
   --calculator-width: 36%;
+
+  /* display dimensions */
+  --display-height: 24%;
+  --display-width: 92%;
 }
 
 /*
