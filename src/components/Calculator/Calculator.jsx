@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Display from "../Display/Display";
 import "./Calculator.css";
 
 class Calculator extends Component {
@@ -28,7 +29,14 @@ class Calculator extends Component {
   };
 
   render = () => {
-    return <div className="calculator-container" />;
+    // unpack the component state by using Object Destructuing
+    const { displayValue } = this.state;
+
+    return (
+      <div className="calculator-container">
+        <Display displayValue={displayValue} />
+      </div>
+    );
   };
 }
 
