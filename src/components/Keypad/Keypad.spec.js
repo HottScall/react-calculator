@@ -16,7 +16,12 @@ describe("Keypad", () => {
     );
   });
 
-  it("should render a <div />", () => {
-    expect(wrapper.find("div").length).toEqual(1);
+  it("should render 3 <div /> 's", () => {
+    expect(wrapper.find("div").length).toEqual(3);
+  });
+
+  it("renders the number of values", () => {
+    wrapper.setProps({ numbers: ["0", "1", "2"] });
+    expect(wrapper.find(".numbers-container").text()).toEqual("012");
   });
 });
