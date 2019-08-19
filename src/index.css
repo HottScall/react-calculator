@@ -7,7 +7,7 @@ app variables
   --calculator-background-color: #247ba0;
   --action-key-color: #fabc3c;
   --action-key-color-hover: #f55536;
-  --display-background-color: #1d1f1f;
+  --display-background-color: #91adc2;
   --number-key-color: #1b2845;
   --number-key-color-hover: #5899e2;
   --submit-key-color: #ebebd3;
@@ -47,6 +47,10 @@ media query for tablet or smaller screen
 
 @media screen and (max-width: 1024px) {
   :root {
+    /* font sizes */
+    --display-text-size: 10em;
+    --key-text-size: 6em;
+
     /* calculator dimensions */
     --calculator-height: 100%;
     --calculator-width: 100%;
