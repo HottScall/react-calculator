@@ -3,20 +3,30 @@ app variables
 */
 
 :root {
-  /* background colours */
+  /* background colors */
   --calculator-background-color: #247ba0;
+  --action-key-color: #fabc3c;
+  --action-key-color-hover: #f55536;
+  --display-background-color: #1d1f1f;
+  --number-key-color: #1b2845;
+  --number-key-color-hover: #5899e2;
+  --submit-key-color: #ebebd3;
+  --submit-key-color-hover: #3c3c3b;
 
   /* font */
   --main-font: "Orbitron", sans-serif;
 
   /* font colors */
   --display-text-color: #ffe066;
+  --key-text-color: #ff6542;
 
   /* font size */
   --display-text-size: 4em;
+  --key-text-size: 3em;
 
   /* font weights */
   --display-text-weight: 400;
+  --key-text-weight: 700;
 
   /* calculator dimensions */
   --calculator-height: 72%;
@@ -40,6 +50,8 @@ media query for tablet or smaller screen
     /* calculator dimensions */
     --calculator-height: 100%;
     --calculator-width: 100%;
+    --display-text-size: 10em;
+    --key-text-size: 3em;
   }
 }
 

@@ -9,7 +9,7 @@
 
 .numbers-container {
   display: flex;
-  flex: row;
+  flex-direction: row;
   flex-wrap: wrap;
   height: 80%;
   width: 75%;
