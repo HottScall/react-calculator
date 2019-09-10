@@ -10,8 +10,8 @@ const Key = ({ keyAction, keyType, keyValue }) => (
 
 Key.propTypes = {
   keyAction: PropTypes.func.isRequired,
-  keyTypes: PropTypes.func.isRequired,
-  keyValue: PropTypes.func.isRequired
+  keyTypes: PropTypes.string.isRequired,
+  keyValue: PropTypes.string.isRequired
 };
 
 export default Key;

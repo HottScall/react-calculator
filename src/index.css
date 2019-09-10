@@ -54,8 +54,6 @@ media query for tablet or smaller screen
     /* calculator dimensions */
     --calculator-height: 100%;
     --calculator-width: 100%;
-    --display-text-size: 10em;
-    --key-text-size: 3em;
   }
 }
 

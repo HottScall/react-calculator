@@ -16,7 +16,7 @@
 }
 
 .operator-key:hover {
-  background-color: var(--action-key-hover-color);
+  background-color: var(--action-key-color-hover);
 }
 
 .number-key {
@@ -25,7 +25,7 @@
 }
 
 .number-key:hover {
-  background-color: var(--number-key-hover-color);
+  background-color: var(--number-key-color-hover);
 }
 
 .submit-key {
